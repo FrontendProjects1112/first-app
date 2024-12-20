@@ -1,0 +1,37 @@
+.set-border
+{
+    background-color: black;
+}
+.rm-bullet
+{
+    list-style-type: none;
+}
+.set-li
+{
+    display: inline-block;
+}
+.flex-container
+{
+    display: flex;
+    justify-content:space-around;
+}
+.flex-container > a
+{
+    margin: 5px;
+}
+.flex-container-signin
+{
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    
+}
+.flex-container-signin > a
+{
+    margin: 5px 20px;
+}
+.active
+{
+    font-size: 18px;
+    font-weight: bold;
+}

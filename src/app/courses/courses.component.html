@@ -1,0 +1,13 @@
+<p>courses works!</p>
+<div class="container">
+    <div class="row gx-2 gy-2">
+        <div class="col-md-4" *ngFor="let item of courseDetails" >
+            <img [src]="item.imageUrl" alt={{item.name}} class="img-fluid">
+            <div class="d-flex justify-content-center justify-content-evenly">
+                <button class="btn btn-primary">Buy Now</button>
+                <button class="btn btn-info" (click)="getCourseId(item.id)">Details</button>
+            </div>
+        </div>
+    </div>
+</div>
+
